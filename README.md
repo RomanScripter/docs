@@ -6,15 +6,19 @@ description: Seja bem vindo(a) a documentação oficial da Roman Store Inc.
 
 ## :book: Sobre esta documentação
 
-#### Objetivos:
+### Objetivos:
 
 > O objetivo primário da **Roman Store Docs** é fornecer à comunidade de usuários da **Roman Store** a documentação mais completa, compreensiva e acessível.
 >
 > **Roman Store Docs** está constantemente evoluindo e prospera com a colaboração; há sempre espaço para melhoria.
 
-#### Compreensivo
+### Compreensivo
 
 > Um dos objetivos primários da **Roman Store Docs** é cobrir todos os aspectros necessários. Da preparação dos seus arquivos à configuração do seu resource, qualquer coisa que a **Roman Store** possa alcançar está dentro do escopo da **Roman Store Docs**
+
+### Acessível
+
+> **Roman Store Docs** deve oferecer uma forma simples e intuitiva de acessar todas as informações que mais necessita.
 
 ## Quick links
 
