@@ -23,10 +23,6 @@
 * [🎨 For Designers](use-cases/for-designers.md)
 * [🖥 For Developers](use-cases/for-developers.md)
 
-## 📖 Sobre
-
-* [Roman Store Brand](sobre/roman-store-brand.md)
-
 ## 📜 Jurídico
 
 * [Termos de Serviço](https://romanscripter.com.br/termos.php)

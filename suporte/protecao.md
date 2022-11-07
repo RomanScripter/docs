@@ -6,12 +6,16 @@ description: >-
 
 # 🛡 Proteção
 
+## ✍ Registro
+
+O primeiro passo é fazer o seu **registro**. Entre na área do cliente da [LockCode](https://financeiro.lockcode.com.br/).
+
+<figure><img src="../.gitbook/assets/Meu Vídeo.gif" alt=""><figcaption></figcaption></figure>
+
 {% hint style="danger" %}
 Compartilhar a sua proteção com outras pessoas é contra os termos da **Roman Store**! Ao compartilhar os seus resources com outros membros você automaticamente **perde acesso total** aos todos os seus resources.
 {% endhint %}
 
-## Video overview
+## :gear: Registro ou alteração de IP:PORTA
 
-Got 2 minutes? Check out a video overview of our product:
-
-{% embed url="https://www.loom.com/embed/3bfa83acc9fd41b7b98b803ba9197d90" %}
+> O segundo passo é clicar no botão **editar**
