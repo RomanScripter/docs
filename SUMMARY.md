@@ -2,10 +2,10 @@
 
 * [👋 Bem Vindo(a)](README.md)
 
-## Overview
+## SUPORTE
 
-* [💡 What we do](overview/what-we-do.md)
-* [✨ Our Features](overview/our-features.md)
+* [💡 What we do](suporte/what-we-do.md)
+* [✨ Our Features](suporte/our-features.md)
 
 ## Product Guides
 
