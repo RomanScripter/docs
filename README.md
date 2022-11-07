@@ -4,9 +4,9 @@ description: Seja bem vindo(a) a documentação oficial da Roman Store Inc.
 
 # 👋 Bem Vindo(a)
 
-## :book: Sobre esta documentação
-
 <figure><img src=".gitbook/assets/Barrinha.gif" alt=""><figcaption></figcaption></figure>
+
+## :book: Sobre esta documentação
 
 ### Objetivos:
 
