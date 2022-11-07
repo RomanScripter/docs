@@ -6,6 +6,8 @@ description: Seja bem vindo(a) a documentação oficial da Roman Store Inc.
 
 ## :book: Sobre esta documentação
 
+<figure><img src=".gitbook/assets/Barrinha.gif" alt=""><figcaption></figcaption></figure>
+
 ### Objetivos:
 
 > O objetivo primário da **Roman Store Docs** é fornecer à comunidade de usuários da **Roman Store** a documentação mais completa, compreensiva e acessível.
