@@ -14,34 +14,16 @@ description: Seja bem vindo(a) a documentação oficial da Roman Store Inc.
 
 ### Compreensivo
 
-> Um dos objetivos primários da **Roman Store Docs** é cobrir todos os aspectros necessários. Da preparação dos seus arquivos à configuração do seu resource, qualquer coisa que a **Roman Store** possa alcançar está dentro do escopo da **Roman Store Docs**
+> Um dos objetivos primários da **Roman Store Docs** é cobrir todos os aspectros necessários. Da configuração dos seus resources à inserção do mesmo em seu servidor, qualquer coisa que a **Roman Store** possa alcançar está dentro do escopo da **Roman Store Docs**
 
 ### Acessível
 
 > **Roman Store Docs** deve oferecer uma forma simples e intuitiva de acessar todas as informações que mais necessita.
 
-## Quick links
+## :link: Links rápidos
 
-{% content-ref url="overview/what-we-do.md" %}
-[what-we-do.md](overview/what-we-do.md)
-{% endcontent-ref %}
-
-{% content-ref url="overview/our-features.md" %}
-[our-features.md](overview/our-features.md)
-{% endcontent-ref %}
-
-## Get Started
-
-We've put together some helpful guides for you to get setup with our product quickly and easily.
-
-{% content-ref url="fundamentals/getting-set-up/" %}
-[getting-set-up](fundamentals/getting-set-up/)
-{% endcontent-ref %}
-
-{% content-ref url="fundamentals/getting-set-up/setting-permissions.md" %}
-[setting-permissions.md](fundamentals/getting-set-up/setting-permissions.md)
-{% endcontent-ref %}
-
-{% content-ref url="fundamentals/getting-set-up/inviting-members.md" %}
-[inviting-members.md](fundamentals/getting-set-up/inviting-members.md)
-{% endcontent-ref %}
+> **Instagram:** [**https://www.instagram.com/romanscripter/**](https://www.instagram.com/romanscripter/)****
+>
+> **Discord:** [**https://discord.gg/SQUDj3DVU7**](https://discord.gg/SQUDj3DVU7)****
+>
+> **Site:** [**https://romanscripter.com.br/**](https://romanscripter.com.br/)****
