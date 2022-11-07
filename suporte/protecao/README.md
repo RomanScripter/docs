@@ -28,6 +28,8 @@ Compartilhar a sua proteção com outras pessoas é contra os termos da **Roman 
 
 ## :warning: Possíveis erros (debugscript)
 
-> Caso você tenha algum&#x20;
+> Caso você tenha algum erro com a proteção, consulte a página abaixo.&#x20;
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td></td><td></td></tr></tbody></table>
+{% content-ref url="erros.md" %}
+[erros.md](erros.md)
+{% endcontent-ref %}
