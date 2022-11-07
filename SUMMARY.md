@@ -6,7 +6,7 @@
 
 * [🛡 Proteção](suporte/protecao/README.md)
   * [⚠ Erros](suporte/protecao/erros.md)
-* [✨ Our Features](suporte/our-features.md)
+* [⚒ Ticket](suporte/ticket.md)
 
 ## Product Guides
 
