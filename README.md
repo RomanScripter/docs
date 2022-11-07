@@ -29,3 +29,5 @@ description: Seja bem vindo(a) a documentação oficial da Roman Store Inc.
 > **Site:** [**https://romanscripter.com.br/**](https://romanscripter.com.br/)****
 >
 > **Instagram:** [**@romanscripter**](https://www.instagram.com/romanscripter/)****
+>
+> **Suporte Técnico: ticket (marcar parte)**

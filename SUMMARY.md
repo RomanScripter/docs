@@ -4,7 +4,8 @@
 
 ## SUPORTE
 
-* [🛡 Proteção](suporte/protecao.md)
+* [🛡 Proteção](suporte/protecao/README.md)
+  * [⚠ Erros](suporte/protecao/erros.md)
 * [✨ Our Features](suporte/our-features.md)
 
 ## Product Guides
