@@ -4,7 +4,7 @@
 
 ## SUPORTE
 
-* [💡 What we do](suporte/what-we-do.md)
+* [🛡 Proteção](suporte/protecao.md)
 * [✨ Our Features](suporte/our-features.md)
 
 ## Product Guides
