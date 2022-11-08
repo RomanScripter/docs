@@ -95,5 +95,11 @@ A opção "positions", possibilita a criação de locais para que a escolha dos 
 Sistema de headshot próprio do sistema, o sistema é utilizado dentro e fora do sistema, você deverá parar de utilizar o seu sistema comum de headshot e utilizar o do sistema próprio.
 
 * **headshot \[actived]:** Opção para usar ou não o Headshot na partida (utilize **true** para utilizar e **false** para desabilitar).
+* **headshot \[damage]:** Dano que o tiro na cabeça irá dar ao jogador.
+
+<!---->
+
+* **headshotOutMatch \[actived]:** Opção para usar ou não o Headshot fora da partida (utilize **true** para utilizar e **false** para desabilitar).
+* **headshotOutMatch \[damage]:** Dano que o tiro na cabeça irá dar ao jogador.
 
 </details>
