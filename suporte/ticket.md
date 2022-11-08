@@ -25,10 +25,10 @@ Pode tratar de assuntos delicados e particulares que necessitam da intervenção
 
 > Após criar o seu canal de ticket, você deverá selecionar a categoria em que você se encaixa.
 
-<figure><img src="../.gitbook/assets/Meu Vídeo (2) (1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Meu Vídeo (2).gif" alt=""><figcaption></figcaption></figure>
 
 > Depois de selecionar a sua categoria desejada, selecione o produto que você deseja.
 
-<figure><img src="../.gitbook/assets/Meu Vídeo (2).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Meu Vídeo (4).gif" alt=""><figcaption></figcaption></figure>
 
 Depois de concluir todos os passos acima, aguarde algum membro da equipe da **Roman Store** responder o seu ticket.
