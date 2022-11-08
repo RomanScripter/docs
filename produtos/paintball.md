@@ -103,3 +103,74 @@ Sistema de headshot próprio do sistema, o sistema é utilizado dentro e fora do
 * **headshotOutMatch \[damage]:** Dano que o tiro na cabeça irá dar ao jogador.
 
 </details>
+
+<details>
+
+<summary>Partida</summary>
+
+{% code lineNumbers="true" %}
+```lua
+['match-configs'] = {
+    ['main_weapon'] = 23,
+
+    ['team'] = {
+        ['time_wait'] = 10,
+        ['max_members'] = 5,
+        ['start_members'] = 4,
+        ['friendly_fire'] = false,
+    },
+
+    ['coins'] = {
+        ['i_dead'] = 800,
+        ['not_died'] = 800,
+        ['start_match'] = 1500,
+        ['kill_player'] = 2500,
+    },
+
+    ['rounds'] = {
+        ['buy_timer'] = 15,
+        ['max_rounds'] = 5,
+        ['match_timer'] = 3,
+    },
+
+    ['shop'] = {
+        ['ak'] = {['name'] = 'ASSAULT RIFLE', ['id'] = 31, ['price'] = 3100},
+        ['shotgun'] = {['name'] = 'PUMP SHOTGUN', ['id'] = 25, ['price'] = 2000},
+        ['grenade'] = {['name'] = 'GRENADE', ['id'] = 16, ['price'] = 500},
+        ['molotov'] = {['name'] = 'MOLOTOV', ['id'] = 18, ['price'] = 400},
+        ['sniper'] = {['name'] = 'SNIPER RIFLE', ['id'] = 34, ['price'] = 4750},
+        ['armor'] = {['name'] = 'ARMOR', ['id'] = 0, ['price'] = 1000},
+        ['smg'] = {['name'] = 'SMG', ['id'] = 29, ['price'] = 1500}
+    }
+},
+```
+{% endcode %}
+
+Configurações da partida de Paintball, veja melhor abaixo todas as configurações.
+
+* **main\_weapon:** Arma principal que o jogador terá em todas as partidas (recomendado colocar uma pistol).
+
+<!---->
+
+* **team \[time\_wait]:** Tempo de espera para completar os times.
+* **team \[max\_members]:** Máximo de membros que cada time pode ter.
+* **team \[start\_members]:** Mínimo de membros que cada time precisa ter para iniciar uma partida.
+* **team \[friendly\_fire]:** Opção para usar ou não o Headshot na partida (utilize **true** para utilizar e **false** para desabilitar).
+
+<!---->
+
+* **coins \[i\_dead]:** Quantidade de coins que o jogador recebe por morrer em algum round.
+* **coins \[not\_died]:** Quantidade de coins que o jogador recebe por não morrer em algum round.
+* **coins \[start\_match]:** Quantidade de coins que cada jogador recebe ao iniciar a partida.
+* **coins \[kill\_player]:** Quantidade de coins que cada jogador recebe ao matar algum outro jogador na partida.
+
+<!---->
+
+* **rounds \[buy\_timer]:** Tempo que os jogadores tem para comprar os seus itens.
+* **rounds \[max\_rounds]:** Máximo de rounds que cada partida vai ter (utilize somente números ímpares nos rounds).
+* **rounds \[match\_timer]:** Tempo que cada round vai ter (em **minutos**).
+
+
+
+</details>
+
