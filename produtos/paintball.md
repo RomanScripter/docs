@@ -234,10 +234,11 @@ Configurações da partida de Paintball, veja melhor abaixo todas as configuraç
 ```lua
 others = {
     ['managerHud'] = function(element, state)
-        return setPlayerHudComponentVisible("all", state);
+        setPlayerHudComponentVisible("radar", state);
+        return;
     end
 };
 ```
 {% endcode %}
 
-> Em **others**, você pode&#x20;
+> Em **others** você tem possibilidade de retirar a sua HUD e o RADAR da tela ao iniciar uma partida, não é obrigatório, porém a tela do jogador fica mais "clean".
