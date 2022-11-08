@@ -2,11 +2,16 @@
 
 * [👋 Bem Vindo(a)](README.md)
 
-## SUPORTE
+## 📌 SUPORTE
 
 * [🛡 Proteção](suporte/protecao/README.md)
   * [⚠ Erros](suporte/protecao/erros.md)
+* [🌍 Idiomas](suporte/idiomas.md)
 * [⚒ Ticket](suporte/ticket.md)
+
+## 📦 Produtos
+
+* [🔫 Paintball](produtos/paintball.md)
 
 ## 🔩 Outros
 
