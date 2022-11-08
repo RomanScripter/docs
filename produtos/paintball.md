@@ -71,3 +71,29 @@ A opção "positions", possibilita a criação de locais para que a escolha dos 
 * **blip \[icon]:** Ícone que irá ficar no radar, para ver mais ícones clique [aqui](https://wiki.multitheftauto.com/wiki/Radar\_Blips).
 
 </details>
+
+<details>
+
+<summary>Headshot</summary>
+
+{% code lineNumbers="true" %}
+```lua
+['headshot'] = { 
+    -- Headshot dentro da partida.
+    ['actived'] = true,
+    ['damage'] = 100,
+ },
+
+['headshotOutMatch'] = { 
+    -- Headshot fora da partida.
+    ['actived'] = true,
+    ['damage'] = 100,
+ },
+```
+{% endcode %}
+
+Sistema de headshot próprio do sistema, o sistema é utilizado dentro e fora do sistema, você deverá parar de utilizar o seu sistema comum de headshot e utilizar o do sistema próprio.
+
+* **headshot \[actived]:** Opção para usar ou não o Headshot na partida (utilize **true** para utilizar e **false** para desabilitar).
+
+</details>
