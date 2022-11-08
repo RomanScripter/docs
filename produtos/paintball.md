@@ -170,7 +170,74 @@ Configurações da partida de Paintball, veja melhor abaixo todas as configuraç
 * **rounds \[max\_rounds]:** Máximo de rounds que cada partida vai ter (utilize somente números ímpares nos rounds).
 * **rounds \[match\_timer]:** Tempo que cada round vai ter (em **minutos**).
 
+<!---->
 
+* **shop:** Itens de compras que ficarão disponíveis para os jogadores, **não é recomendado** alterar o **NOME** e o **ID** das armas, porém o **PREÇO PODE SER ALTERADO NORMALMENTE**.
 
 </details>
 
+<details>
+
+<summary>Mapa</summary>
+
+{% code lineNumbers="true" %}
+```lua
+['map-configs'] = {
+    ['interior'] = 10,
+
+    ['skins'] = {
+        ['blue'] = 0,
+        ['pink'] = 1,
+    },
+
+    ['positions'] = {
+        ['blue'] = {
+            [1] = {-976.701, 1074.51, 1344.98, 0, 0, 94.3},
+            [2] = {-976.695, 1079.985, 1344.97, 0, 0, 90.1},
+            [3] = {-970.619, 1080.018, 1345.012, 0, 0, 92.3},
+            [4] = {-970.677, 1074.483, 1345.015, 0, 0, 88.7},
+            [5] = {-973.661, 1077.254, 1344.993, 0, 0, 92.3}
+        },
+    
+        ['pink'] = {
+            [1] = {-1128.553, 1044.531, 1345.72, 0, 0, 270.9},
+            [2] = {-1128.707, 1038.96, 1345.716, 0, 0, 268.5},
+            [3] = {-1134.885, 1038.989, 1345.756, 0, 0, 269.3},
+            [4] = {-1134.559, 1044.193, 1345.759, 0, 0, 268.8},
+            [5] = {-1131.645, 1041.744, 1345.738, 0, 0, 270.8}
+        }
+    },
+}
+```
+{% endcode %}
+
+Configurações da partida de Paintball, veja melhor abaixo todas as configurações.
+
+* **interior:** Interior que o mapa ficará.
+
+<!---->
+
+* **skins \[blue]:** Skin que o time BLUE usará durante a partida.
+* **skin \[pink]:** Skin que o time PINK usará durante a partida.
+
+<!---->
+
+* **positions:** Posição X, Y e Z e Rotação X, Y e Z de onde o player irá spawnar no mapa.
+* **positions \[blue]:** Posições de todos os membros que vão spawnar (então se tiver 10 membros, insira 10 indexs com posições diferentes de spawn no mapa do paintball).
+* **positions \[pink]:** Posições de todos os membros que vão spawnar (então se tiver 10 membros, insira 10 indexs com posições diferentes de spawn no mapa do paintball).
+
+</details>
+
+## :control\_knobs: Outros
+
+{% code lineNumbers="true" %}
+```lua
+others = {
+    ['managerHud'] = function(element, state)
+        return setPlayerHudComponentVisible("all", state);
+    end
+};
+```
+{% endcode %}
+
+> Em **others**, você pode&#x20;
