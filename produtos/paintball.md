@@ -34,10 +34,10 @@ A opção "language" dentro do resource, serve para você definir o idioma princ
 
 {% code lineNumbers="true" %}
 ```lua
-['open-shop'] = "B", -- Abrir SHOP de itens na partida.
-['team-choose'] = "E", -- Abrir seleção de times.
-['team-exit'] = "F7", -- Sair de um time.
-['open-scoreboard'] = "F1", -- Abrir SCOREBOARD da partida.
+['open-shop'] = "B",
+['team-choose'] = "E",
+['team-exit'] = "F7",
+['open-scoreboard'] = "F1",
 ```
 {% endcode %}
 
@@ -155,7 +155,7 @@ Configurações da partida de Paintball, veja melhor abaixo todas as configuraç
 * **team \[time\_wait]:** Tempo de espera para completar os times.
 * **team \[max\_members]:** Máximo de membros que cada time pode ter.
 * **team \[start\_members]:** Mínimo de membros que cada time precisa ter para iniciar uma partida.
-* **team \[friendly\_fire]:** Opção para usar ou não o Headshot na partida (utilize **true** para utilizar e **false** para desabilitar).
+* **team \[friendly\_fire]:** Opção para usar ou não o Fogo Amigo (dar dano nos membros de seu grupo) na partida (utilize **true** para utilizar e **false** para desabilitar).
 
 <!---->
 
