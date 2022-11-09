@@ -6,7 +6,7 @@
 
 ## :question: Quando devo utilizar?
 
-Pode tratar de assuntos delicados e particulares que necessitam da intervenção da equipe, por exemplo:
+Pode ser utilizado para se tratar de assuntos delicados e particulares que necessitam da intervenção da equipe, por exemplo:
 
 > * Problemas técnicos;
 > * Reportar algum erro;
