@@ -7,6 +7,7 @@
 * [🛡 Proteção](suporte/protecao/README.md)
   * [⚠ Erros](suporte/protecao/erros.md)
 * [🌍 Idiomas](suporte/idiomas.md)
+* [🎲 Infobox](suporte/infobox.md)
 * [⚒ Ticket](suporte/ticket.md)
 
 ## 📦 Produtos

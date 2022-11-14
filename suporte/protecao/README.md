@@ -20,6 +20,8 @@ Compartilhar a sua proteção com outras pessoas é contra os termos da **Roman 
 
 > O segundo passo é inserir ou alterar o IP:PORTA do seu servidor, para isso, clique no botão **EDITAR** e coloque o **IP** e a **Porta** de acesso do seu servidor.
 
+> Caso esteja utilizando o resource em seu **SERVIDOR LOCAL**, você deverá colocar o endereço de IP que aparece nesse [**site**](https://meuip.com.br/) **** e insira a porta **`22003`**.
+
 <figure><img src="../../.gitbook/assets/Meu Vídeo1 (1).gif" alt=""><figcaption></figcaption></figure>
 
 ## :desktop: Liberação do resource
