@@ -12,6 +12,7 @@
 
 ## 📦 Produtos
 
+* [⚙ Fábrica de Armas](produtos/fabrica-de-armas.md)
 * [🔫 Paintball](produtos/paintball.md)
 
 ## 🔩 Outros

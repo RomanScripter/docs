@@ -21,11 +21,11 @@ Pode ser utilizado para se tratar de assuntos delicados e particulares que neces
 
 > O primeiro passo para iniciar um ticket é necessário ir até o canal [**🔗・ticket**](https://discord.com/channels/834584895811878952/942880839027531786) **** e clicar no botão "Abrir Ticket".
 
-<figure><img src="../.gitbook/assets/Meu Vídeo.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Meu Vídeo (1).gif" alt=""><figcaption></figcaption></figure>
 
 > Após criar o seu canal de ticket, você deverá selecionar a categoria em que você se encaixa.
 
-<figure><img src="../.gitbook/assets/Meu Vídeo (2).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Meu Vídeo (2) (1).gif" alt=""><figcaption></figcaption></figure>
 
 > Depois de selecionar a sua categoria desejada, selecione o produto que você deseja.
 
