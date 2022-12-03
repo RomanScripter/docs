@@ -1,12 +1,12 @@
 ---
-description: Sistema de fabricação de armas, vinculável a qualquer inventário.
+description: Sistema de venda de armas, vinculável a qualquer inventário.
 ---
 
-# 🔫 Venda de Armas
+# 🤝 Venda de Armas
 
 ## :shield: Proteção
 
-> Para concluir a configuração da proteção no resource de Fabricar Armas, clique [aqui](../suporte/protecao/).
+> Para concluir a configuração da proteção no resource de Venda de Armas, clique [aqui](../suporte/protecao/).
 
 ## :gear: Configuração
 
@@ -26,96 +26,47 @@ A opção mostrada acima é utilizada para enviar notificações das armas que f
 
 * **webhook:** Link do webhook do Discord.
 
-<img src="../.gitbook/assets/Captura de tela_20221203_012916.png" alt="" data-size="original">
-
 </details>
 
 <details>
 
-<summary>Animação</summary>
+<summary>Configs</summary>
 
 {% code lineNumbers="true" %}
 ```lua
-['anim'] = {
-    category = "CASINO", 
-    name = "dealone"
-},
-```
-{% endcode %}
+system = {
+    ['open'] = "b", 
+    ['distance'] = 7,
 
-&#x20;A opção mostrada acima é utilizada quando o jogador inicia a fabricação de alguma arma.
-
-* **category:** Bloco da animação que a animação fica.
-* **name:** Nome da animação que o jogador irá executar
-
-</details>
-
-<details>
-
-<summary>Fábricas</summary>
-
-{% code lineNumbers="true" %}
-```lua
-['factorys'] = {
-    {
-        ['position'] = {x = -4972.943, y = 962.277, z = 1.869, size = 1.5, i = 0, d = 0}, -- Posição, tamanho, interior e dimensão do marker da fábrica.
-        ['color'] = {r = 0, g = 115, b = 255, a = 110}, -- Cor e Alpha do marker de fabricação.
-        ['permissions'] = {"Console", "Admin"}, -- Permissões de acesso a fábrica de armas.
-
-        ['blip'] = {
-            use = true, -- Caso não queira utilizar blips, coloque "false", caso ao contrário, coloque "true".
-            icon = 6 -- Ícone que será utilizado como ícone no radar.
-        },
-
-        ['weapons'] = { -- Armas que aparecerão no painel.
-            {id = 30, name = "AK-47", ammo = 600, price = 30000, cooldown = 60}, -- ID da arma, nome de exibição, quantidade de munição que virá com a arma, valor para fabricar & tempo para fabricar (em segundos).
-            {id = 31, name = "M4A1", ammo = 600, price = 30000, cooldown = 60}, -- ID da arma, nome de exibição, quantidade de munição que virá com a arma, valor para fabricar & tempo para fabricar (em segundos).
-            {id = 28, name = "Uzi", ammo = 600, price = 15000, cooldown = 30}, -- ID da arma, nome de exibição, quantidade de munição que virá com a arma, valor para fabricar & tempo para fabricar (em segundos).
-        }
+    ['price'] = {
+        min = 5000,
+        max = 200000
     },
-    {
-        ['position'] = {x = -4944.609, y = 956.229, z = 1.869, size = 1.5, i = 0, d = 0}, -- Posição, tamanho, interior e dimensão do marker da fábrica.
-        ['color'] = {r = 0, g = 115, b = 255, a = 110}, -- Cor e Alpha do marker de fabricação.
-        ['permissions'] = {"Console", "Admin"}, -- Permissões de acesso a fábrica de armas.
 
-        ['blip'] = {
-            use = false, -- Caso não queira utilizar blips, coloque "false", caso ao contrário, coloque "true".
-            icon = 6 -- Ícone que será utilizado como ícone no radar.
-        },
-
-        ['weapons'] = { -- Armas que aparecerão no painel.
-            {id = 18, name = "Molotov", ammo = 600, price = 35000, cooldown = 75}, -- ID da arma, nome de exibição, quantidade de munição que virá com a arma, valor para fabricar & tempo para fabricar (em segundos).
-            {id = 22, name = "Colt 45", ammo = 600, price = 10000, cooldown = 15}, -- ID da arma, nome de exibição, quantidade de munição que virá com a arma, valor para fabricar & tempo para fabricar (em segundos).
-            {id = 34, name = "Sniper", ammo = 600, price = 50000, cooldown = 120}, -- ID da arma, nome de exibição, quantidade de munição que virá com a arma, valor para fabricar & tempo para fabricar (em segundos).
-        }
+    ['weapons-permitted'] = {
+        [22] = true, -- Colt 45
+        [24] = true, -- Deagle
+        [25] = true, -- Shotgun
+        [28] = true, -- Uzi
+        [29] = true, -- MP5
+        [32] = true, -- Tec-9
+        [30] = true, -- AK-47
+        [31] = true, -- M4A1
+        [34] = true -- Sniper
     }
-},
+};
 ```
 {% endcode %}
 
-A opção "factorys", possibilita a criação de novos locais para que a fabricação de armas seja feita. Também é possível alterar outras coisas, veja mais sobre abaixo.
+A opção mostrada acima é utilizada para configurar o sistema de vendas de armas com mais precisão, e deixar da forma que você deseja.
 
-* **position:** Posição X, Y e Z de onde o painel irá ficar no mundo, tamanho do marker, interior e dimensão que o marker irá ficar.
-* **color:** Cor e visibilidade do marker (RGBA).
-* **permissions:** Permissões necessárias para acessar a fábrica de armas.
-* **blip \[use]:** Opção para usar ou não o BLIP (utilize **true** para habilitar e **false** para desabilitar).
-* **blip \[icon]:** Ícone que irá ficar no radar, para ver mais ícones clique [aqui](https://wiki.multitheftauto.com/wiki/Radar\_Blips).
-* **weapons:** Opções de armas que a fábrica irá ter para fabricar.
-  * **id:** ID da arma escolhida.
-  * **name:** Nome que será exibido no painel.&#x20;
-  * **ammo:** Munições que serão dadas **** ao terminar a fabricação (caso não queira, deixe **0**).
-  * **price:** Valor que o jogador terá que pagar para fabricar a arma.
-  * **cooldown:** Tempo que o jogador irá ter que esperar para fabricar a arma.
-
-
-
-Caso você queira criar uma nova fábrica, você deverá copiar da linha **2** até a linha **17** (linhas do exemplo acima), após copiar você deverá colar abaixo de onde você copiou, que no caso do exemplo acima, seria na linha **18**, olhe o exemplo abaixo.
-
-## <img src="../.gitbook/assets/Meu Vídeo (6).gif" alt="" data-size="original">
+* **open:** Tecla que você irá utilizar para abrir o painel.
+* **distance:** Distância que o vendedor pode ficar do comprador da arma.
+* **price:** Preço mínimo e preço máximo que uma arma pode ser vendida.
+* **weapons-permitted:** Armas permitidas para vendas.\
+  \- Use esse modelo: **\[ID da ARMA] = true,**
 
 </details>
-
-
 
 ## :control\_knobs: Outros
 
@@ -128,16 +79,6 @@ others = {
 
     ['givePlayerWeapon'] = function(element, id, ammo)
         return giveWeapon(element, id, ammo);
-    end,
-
-    ['createRadarBlip'] = function(x, y, z, icon, size, ...)
-        local blip = createBlip(x, y, z, icon, size, ...);
-        setBlipVisibleDistance(blip, 250);
-        return;
-    end,
-
-    ['setAnimation'] = function(element, block, anim, time, ...)
-        return setPedAnimation(element, block, anim, time, ...);
     end,
 
     ['getPlayerID'] = function(element)
@@ -159,8 +100,6 @@ others = {
 
 * **managerHud:** Retirar a sua HUD e o RADAR da tela ao iniciar uma partida, não é obrigatório, porém a tela do jogador fica mais "clean".
 * **givePlayerWeapon:** Função para dar a arma para o jogador após a fabricação (caso você tenha inventário e as suas armas for por ele, você deverá vincula-lo aqui.
-* **createRadarBlip:** Função para criar o BLIP em seu radar.
-* **setAnimation:** Função para setar animação no jogador durante a fabricação.
 * **getPlayerID:** Função para pegar o ID do jogador.
 * **takeMoney:** Função para retirar uma quantia de dinheiro do jogador.
 * **getMoney:** Função para pegar a quantidade de dinheiro do jogador.
