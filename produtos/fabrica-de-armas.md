@@ -26,7 +26,7 @@ A opção mostrada acima é utilizada para enviar notificações das armas que f
 
 * **webhook:** Link do webhook do Discord.
 
-![](<../.gitbook/assets/image (1).png>)
+![](../.gitbook/assets/image.png)
 
 </details>
 
@@ -111,7 +111,7 @@ A opção "factorys", possibilita a criação de novos locais para que a fabrica
 
 Caso você queira criar uma nova fábrica, você deverá copiar da linha **2** até a linha **17** (linhas do exemplo acima), após copiar você deverá colar abaixo de onde você copiou, que no caso do exemplo acima, seria na linha **18**, olhe o exemplo abaixo.
 
-## <img src="../.gitbook/assets/Meu Vídeo (5).gif" alt="" data-size="original">
+## <img src="../.gitbook/assets/Meu Vídeo (6).gif" alt="" data-size="original">
 
 </details>
 
