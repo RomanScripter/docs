@@ -14,7 +14,7 @@ description: Sistema de fabricação de armas, vinculável a qualquer inventári
 
 <details>
 
-<summary>Webhhook</summary>
+<summary>Webhook</summary>
 
 {% code lineNumbers="true" %}
 ```lua
@@ -111,7 +111,7 @@ A opção "factorys", possibilita a criação de novos locais para que a fabrica
 
 Caso você queira criar uma nova fábrica, você deverá copiar da linha **2** até a linha **17** (linhas do exemplo acima), após copiar você deverá colar abaixo de onde você copiou, que no caso do exemplo acima, seria na linha **18**, olhe o exemplo abaixo.
 
-## <img src="../.gitbook/assets/Meu Vídeo (2).gif" alt="" data-size="original">
+## <img src="../.gitbook/assets/Meu Vídeo (5).gif" alt="" data-size="original">
 
 </details>
 
