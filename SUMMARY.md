@@ -25,4 +25,4 @@
 
 ## 📜 Jurídico
 
-* [Termos de Serviço](https://romanscripter.com.br/termos.php)
+* [Termos de Serviço](https://romanscripter.com.br/termos/)
