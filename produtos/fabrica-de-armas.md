@@ -103,7 +103,7 @@ A opção "factorys", possibilita a criação de novos locais para que a fabrica
 * **weapons:** Opções de armas que a fábrica irá ter para fabricar.
   * **id:** ID da arma escolhida.
   * **name:** Nome que será exibido no painel.&#x20;
-  * **ammo:** Munições que serão dadas **** ao terminar a fabricação (caso não queira, deixe **0**).
+  * **ammo:** Munições que serão dadas  ao terminar a fabricação (caso não queira, deixe **0**).
   * **price:** Valor que o jogador terá que pagar para fabricar a arma.
   * **cooldown:** Tempo que o jogador irá ter que esperar para fabricar a arma.
 

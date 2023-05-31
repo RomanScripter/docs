@@ -15,11 +15,11 @@ Pode ser utilizado para se tratar de assuntos delicados e particulares que neces
 > * Caso tenha ganho algum sorteio;
 > * Se precisar de reportar um usuário;
 > * Reclamações sobre membros da equipe;
-> * Caso precise de comprar um resource por métodos **** alternativos ou caso o site não esteja funcionando corretamente (aceitamos PayPal, MercadoPago e Pix).
+> * Caso precise de comprar um resource por métodos alternativos ou caso o site não esteja funcionando corretamente (aceitamos PayPal, MercadoPago e Pix).
 
 ## :desktop: Como utilizar o ticket?
 
-> O primeiro passo para iniciar um ticket é necessário ir até o canal [**🔗・ticket**](https://discord.com/channels/834584895811878952/942880839027531786) **** e clicar no botão "Abrir Ticket".
+> O primeiro passo para iniciar um ticket é necessário ir até o canal [**🔗・ticket**](https://discord.com/channels/834584895811878952/942880839027531786) e clicar no botão "Abrir Ticket".
 
 <figure><img src="../.gitbook/assets/Meu Vídeo (5).gif" alt=""><figcaption></figcaption></figure>
 

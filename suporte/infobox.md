@@ -1,7 +1,7 @@
 # 🎲 Infobox
 
 {% hint style="warning" %}
-Depois de ler toda a página e ainda não estiver entendo, abra um **⚒️** [**Ticket**](ticket.md) **** para que **** nossa equipe auxilie você.
+Depois de ler toda a página e ainda não estiver entendo, abra um **⚒️** [**Ticket**](ticket.md) para que nossa equipe auxilie você.
 {% endhint %}
 
 ## :question: O que é infobox?
@@ -16,7 +16,7 @@ Depois de ler toda a página e ainda não estiver entendo, abra um **⚒️** [*
 
 > Para alterar o seu infobox e não ter nenhum risco de erro, primeiramente altere as informações da tabela **`notify`** e coloque os tipos de notificação que seu infobox tem.&#x20;
 
-> Aqui, você deverá alterar somente o que está depois de **`= ""`,** exemplo: ****&#x20;
+> Aqui, você deverá alterar somente o que está depois de **`= ""`,** exemplo:&#x20;
 
 {% code lineNumbers="true" %}
 ```lua
