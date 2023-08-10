@@ -14,7 +14,7 @@ description: Seja bem vindo(a) a documentação oficial da Roman Store Inc.
 >
 > **Roman Store Docs** está constantemente evoluindo e prospera com a colaboração; há sempre espaço para melhoria.
 
-### Compreensivo
+### Prático
 
 > Um dos objetivos primários da **Roman Store Docs** é cobrir todos os aspectros necessários. Da configuração dos seus resources à inserção do mesmo em seu servidor, qualquer coisa que a **Roman Store** possa alcançar está dentro do escopo da **Roman Store Docs**
 
