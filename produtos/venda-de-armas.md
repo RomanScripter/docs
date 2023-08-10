@@ -2,7 +2,7 @@
 description: Sistema de venda de armas, vinculável a qualquer inventário.
 ---
 
-# 🤝 Venda de Armas
+# 🛒 Venda de Armas
 
 ## :shield: Proteção
 

@@ -4,7 +4,7 @@ description: >-
   outra equipe primeiro ganha.
 ---
 
-# 🔫 Paintball
+# 🛒 Paintball
 
 ## :shield: Proteção
 

@@ -16,26 +16,50 @@ Caso não entenda, abra um [Ticket](ticket.md) e tire suas dúvidas com nossa eq
 ```lua
 language = {
     ['pt-BR'] = {
-        ['hud round winner'] = "VENCEU A RODADA",
+        ['panel'] = {
+            ['main'] = {
+                ['title'] = "Concessionária",
+                ['amount'] = "R$ ${amount}",
+                ['welcome'] = "Seja bem vindo(a), ${nickname}",
+                ['know more'] = "Saiba mais",
+                ['your money'] = "Seu dinheiro,",
+                ['description'] = "As melhores marcas, os melhores modelos e condições de pagamento imperdíveis! Estamos esperando por você!",
+            },
 
-        ['scoreboard title'] = "SCOREBOARD",
+            ['vehicles'] = {
+                ['stock disponible'] = "Estoque disp. ${stock}",
+                ['acceleration'] = "Aceleração",
+                ['vehicle list'] = "Lista de Veículos",
+                ['no has stock'] = "Sem estoque",
+                ['test drive'] = "Teste Drive",
+                ['max speed'] = "Velocidade máxima",
+                ['search'] = "Procurar...",
+                ['brakes'] = "Freio",
+                ['trunk'] = "Porta Malas",
+                ['price'] = "R$ ${price}",
+                ['cash'] = "C$ ${cash}",
+                ['buy'] = "Comprar",
+            },
 
-        ['spectate info'] = "Você está espectando o(a) #FFFF00${nickname} \n#FFFFFFPara alterar o jogador, pressione #FFFF00< #FFFFFFou #FFFF00>",
+            ['test drive'] = {
+                ['title'] = "Test Drive",
+                ['description'] = "Restam ${seconds} segundo(s)."
+            }
+        },
 
-        ['waiting team exit'] = "PRESSIONE #7D50EF${key} #FFFFFFPARA SAIR",
-        ['waiting team remaining'] = "Restam ${seconds} segundo(s) para iniciar.",
-        ['waiting team waiting players'] = "Aguardando jogadores",
+        ['messages'] = {
+            ['main'] = {
+                ['This category is empty'] = "Não há veículos nessa categoria!",
+                ['this category is blocked only vips'] = "Essa categoria é permitida apenas para VIPS.",
+            },
 
-        ['buy time open'] = "Pressione \"${key}\" para abrir a loja de itens.",
-        ['buy time close'] = "FECHAR",
-        ['buy time title'] = "LOJA DE ARMAMENTOS",
-        ['buy time buyed item'] = "Você comprou um item na loja.",
-
-        ['select team open'] = "Pressione \"${key}\" para abrir a seleção de times.",        
-        ['select team exit team'] = "Pressione #7D50EF${key} #ffffffpara sair do time.",
-        ['select team close match'] = "Já está acontecendo uma partida aqui, volte mais tarde!",
-        ['select team selected team'] = "Você selecionou um time!",
-        ['select team panel join team'] = "ENTRAR",
+            ['test drive'] = {
+                ['started'] = "Você iniciou o teste drive do veículo.",
+                ['finalized'] = "Você finalizou o teste drive do veículo.",
+                ['vehicle exit'] = "Você saiu do veículo e perdeu o Test Drive!",
+                ['player wasted'] = "Você morreu e perdeu o Test Drive do veículo!"
+            }
+        }
     }
 };
 ```
@@ -47,49 +71,96 @@ Para adicionar outro idioma, basta copiar tudo que está entre **\['pt-BR'] = {*
 ```lua
 language = {
     ['pt-BR'] = {
-        ['hud round winner'] = "VENCEU A RODADA",
+        ['panel'] = {
+            ['main'] = {
+                ['title'] = "Concessionária",
+                ['amount'] = "R$ ${amount}",
+                ['welcome'] = "Seja bem vindo(a), ${nickname}",
+                ['know more'] = "Saiba mais",
+                ['your money'] = "Seu dinheiro,",
+                ['description'] = "As melhores marcas, os melhores modelos e condições de pagamento imperdíveis! Estamos esperando por você!",
+            },
 
-        ['scoreboard title'] = "SCOREBOARD",
+            ['vehicles'] = {
+                ['stock disponible'] = "Estoque disp. ${stock}",
+                ['acceleration'] = "Aceleração",
+                ['vehicle list'] = "Lista de Veículos",
+                ['no has stock'] = "Sem estoque",
+                ['test drive'] = "Teste Drive",
+                ['max speed'] = "Velocidade máxima",
+                ['search'] = "Procurar...",
+                ['brakes'] = "Freio",
+                ['trunk'] = "Porta Malas",
+                ['price'] = "R$ ${price}",
+                ['cash'] = "C$ ${cash}",
+                ['buy'] = "Comprar",
+            },
 
-        ['spectate info'] = "Você está espectando o(a) #FFFF00${nickname}\n#FFFFFFPara alterar o jogador, pressione #FFFF00< #FFFFFFou #FFFF00>",
+            ['test drive'] = {
+                ['title'] = "Test Drive",
+                ['description'] = "Restam ${seconds} segundo(s)."
+            }
+        },
 
-        ['waiting team exit'] = "PRESSIONE #7D50EF${key} #FFFFFFPARA SAIR",
-        ['waiting team remaining'] = "Restam ${seconds} segundo(s) para iniciar.",
-        ['waiting team waiting players'] = "Aguardando jogadores",
+        ['messages'] = {
+            ['main'] = {
+                ['This category is empty'] = "Não há veículos nessa categoria!",
+                ['this category is blocked only vips'] = "Essa categoria é permitida apenas para VIPS.",
+            },
 
-        ['buy time open'] = "Pressione \"${key}\" para abrir a loja de itens.",
-        ['buy time close'] = "FECHAR",
-        ['buy time title'] = "LOJA DE ARMAMENTOS",
-        ['buy time buyed item'] = "Você comprou um item na loja.",
-
-        ['select team open'] = "Pressione \"${key}\" para abrir a seleção de times.",        
-        ['select team exit team'] = "Pressione #7D50EF${key} #ffffffpara sair do time.",
-        ['select team close match'] = "Já está acontecendo uma partida aqui, volte mais tarde!",
-        ['select team selected team'] = "Você selecionou um time!",
-        ['select team panel join team'] = "ENTRAR",
+            ['test drive'] = {
+                ['started'] = "Você iniciou o teste drive do veículo.",
+                ['finalized'] = "Você finalizou o teste drive do veículo.",
+                ['vehicle exit'] = "Você saiu do veículo e perdeu o Test Drive!",
+                ['player wasted'] = "Você morreu e perdeu o Test Drive do veículo!"
+            }
+        }
     },
-
     ['en-US'] = {
-        ['hud round winner'] = "WON THE ROUND",
+        ['panel'] = {
+            ['main'] = {
+                ['title'] = "Concessionária",
+                ['amount'] = "R$ ${amount}",
+                ['welcome'] = "Seja bem vindo(a), ${nickname}",
+                ['know more'] = "Saiba mais",
+                ['your money'] = "Seu dinheiro,",
+                ['description'] = "As melhores marcas, os melhores modelos e condições de pagamento imperdíveis! Estamos esperando por você!",
+            },
 
-        ['scoreboard title'] = "SCOREBOARD",
+            ['vehicles'] = {
+                ['stock disponible'] = "Estoque disp. ${stock}",
+                ['acceleration'] = "Aceleração",
+                ['vehicle list'] = "Lista de Veículos",
+                ['no has stock'] = "Sem estoque",
+                ['test drive'] = "Teste Drive",
+                ['max speed'] = "Velocidade máxima",
+                ['search'] = "Procurar...",
+                ['brakes'] = "Freio",
+                ['trunk'] = "Porta Malas",
+                ['price'] = "R$ ${price}",
+                ['cash'] = "C$ ${cash}",
+                ['buy'] = "Comprar",
+            },
 
-        ['spectate info'] = "You are viewer of #FFFF00${nickname}\n#FFFFFFTo change the player, press #FFFF00< #FFFFFFto #FFFF00>",
+            ['test drive'] = {
+                ['title'] = "Test Drive",
+                ['description'] = "Restam ${seconds} segundo(s)."
+            }
+        },
 
-        ['waiting team exit'] = "PRESS #7D50EF${key} #FFFFFFTO EXIT",
-        ['waiting team remaining'] = "${seconds} second(s) left to start.",
-        ['waiting team waiting players'] = "Waiting for players",
+        ['messages'] = {
+            ['main'] = {
+                ['This category is empty'] = "Não há veículos nessa categoria!",
+                ['this category is blocked only vips'] = "Essa categoria é permitida apenas para VIPS.",
+            },
 
-        ['buy time open'] = "Press \"${key}\" to open the item shop.",
-        ['buy time close'] = "CLOSE",
-        ['buy time title'] = "WEAPONS STORE",
-        ['buy time buyed item'] = "You purchased an item in the store.",
-
-        ['select team open'] = "Press \"${key}\" to open the team selection.",        
-        ['select team exit team'] = "Press #7D50EF${key} #ffffff to leave the team.",
-        ['select team close match'] = "There's already a game going on here, come back later!",
-        ['select team selected team'] = "You have selected a team!",
-        ['select team panel join team'] = "JOIN",
+            ['test drive'] = {
+                ['started'] = "Você iniciou o teste drive do veículo.",
+                ['finalized'] = "Você finalizou o teste drive do veículo.",
+                ['vehicle exit'] = "Você saiu do veículo e perdeu o Test Drive!",
+                ['player wasted'] = "Você morreu e perdeu o Test Drive do veículo!"
+            }
+        }
     }
 };
 ```

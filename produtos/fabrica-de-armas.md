@@ -2,7 +2,7 @@
 description: Sistema de fabricação de armas, vinculável a qualquer inventário.
 ---
 
-# ⚙ Fábrica de Armas
+# 🛒 Fábrica de Armas
 
 ## :shield: Proteção
 
