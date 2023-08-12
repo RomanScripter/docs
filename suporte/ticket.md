@@ -27,8 +27,4 @@ Pode ser utilizado para se tratar de assuntos delicados e particulares que neces
 
 <figure><img src="../.gitbook/assets/Meu Vídeo (2).gif" alt=""><figcaption></figcaption></figure>
 
-> Depois de selecionar a sua categoria desejada, selecione o produto que você deseja.
-
-<figure><img src="../.gitbook/assets/Meu Vídeo (4).gif" alt=""><figcaption></figcaption></figure>
-
 Depois de concluir todos os passos acima, aguarde algum membro da equipe da **Roman Store** responder o seu ticket.
