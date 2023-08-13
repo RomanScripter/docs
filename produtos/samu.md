@@ -176,3 +176,106 @@ commands = {
 {% endcode %}
 
 </details>
+
+<details>
+
+<summary>Morte</summary>
+
+{% code lineNumbers="true" %}
+```lua
+wasted = {
+    key = "E", -- Tecla para chamar os médicos.
+    blip = 41, -- Ícone do BLIP para chamados.
+    time = 500, -- Segundos para você reviver (em segundos).
+    animation = {"CRACK", "crckdeth2"}, -- Animação que o jogador irá fazer ao morrer.
+    
+    finalize = {
+        use = true,  -- Opção para ser finalizado direto caso não haja nenhum médico online (true para sim e false para não).
+        count = 2 -- Quantidade mínima de médicos para não ser finalizado direto.
+    },
+
+    sound = {
+        use = true, -- Opção para ativar ou desativar a música ao morrer (true para sim e false para não).
+
+        link = "https://www.youtube.com/watch?v=bS1Nf0syICc", -- Som da música no YouTube.
+        title = "Gucci Mane, Bruno Mars, Kodak Black - Wake Up In The Sky", -- Título da música.
+        volume = 20, -- Volume da música.
+    }
+}
+```
+{% endcode %}
+
+Acima está a configuração do sistema de maca do próprio samu, veja abaixo como configurá-lo.
+
+{% code lineNumbers="true" %}
+```lua
+key = "E",
+blip = 41,
+time = 500,
+animation = {"CRACK", "crckdeth2"},
+
+--[[
+    key: "key" é a tecla para chamar os médicos online
+    quando a vítima estiver morta.
+    
+    blip: "blip" é o ID do blip que será mostrado ao chamar
+    o médico.
+    
+    time: "time" é o tempo que a vítima terá que esperar para
+    ser revivido ou apenas se matar novamente.
+    
+    animation: "animation" é o bloco e o nome da animação que 
+    o médico irá que fazer ao reanimar a vítima
+]]--
+
+finalize = {
+    use = true,
+    count = 2
+},
+
+--[[
+     use: "use" é a opção para usar ou não a opção de ser finalizado
+     automaticamente em casos de não haver médicos suficientes on-line
+     
+     true = sim
+     false = não
+     
+     para deixar ativado, utilize:
+     use = true,
+     
+     para deixar desativado, utilize:
+     use = false,
+     
+     count: "count" é a quantidade de médicos que deverá estar
+     on-line para que a vítima não seja finalizado automaticamente
+]]--
+
+sound = {
+   use = true,
+
+   link = "https://www.youtube.com/watch?v=bS1Nf0syICc",
+   title = "Gucci Mane, Bruno Mars, Kodak Black - Wake Up In The Sky",
+   volume = 20,
+}
+
+--[[
+     use: "use" é a opção para usar ou não a opção de usar ou não
+     músicas no painel que a vítima irá ver após morrer.
+     
+     true = sim
+     false = não
+     
+     para deixar ativado, utilize:
+     use = true,
+     
+     para deixar desativado, utilize:
+     use = false,
+     
+     link: "link" é a url da música no YouTube
+     title: "title" é o título da música que irá aparecer
+     para as vítimas que morrerem.
+]]--
+```
+{% endcode %}
+
+</details>
