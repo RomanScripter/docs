@@ -123,3 +123,56 @@ reward = {
 {% endcode %}
 
 </details>
+
+<details>
+
+<summary>Maca</summary>
+
+<pre class="language-lua" data-line-numbers><code class="lang-lua"><strong>hospital_bed = {
+</strong>    permissions = {"Console", "Admin"}, -- Permissões para criar / deletar macas.
+    objectId = 1997, -- ID do objeto da MACA.
+    heal = 5000, -- Valor para se curar sozinho (somente na maca).
+
+    commands = {
+        create = "criarmaca", -- Comando para criar macas.
+        delete = "deletarmaca" -- Comando para deletar macas.
+    },
+},
+</code></pre>
+
+Acima está a configuração do sistema de maca do próprio samu, veja abaixo como configurá-lo.
+
+{% code lineNumbers="true" %}
+```lua
+permissions = {"Console", "Admin"},
+
+--[[
+    permissions: "permissions" são as permissõs para gerenciar
+    as macas criadas, podendo criar e deletar as macas.
+]]--
+
+objectId = 1997,
+heal = 5000,
+
+--[[
+    objectId: "objectId" é o ID do objeto que você irá utilizar
+    como maca do samu.
+    
+    heal: "heal" é o preço para se curar apenas se deitando na 
+    maca, sem nenhuma ajuda de médicos.
+]]--
+
+commands = {
+    create = "criarmaca",
+    delete = "deletarmaca"
+},
+
+--[[
+    create: "create" é o comando para criar novas macas no servidor.
+    delete: "delete" é o comando para deletar as macas próximas,
+    macas que já foram criadas e estão no servidor.
+]]--
+```
+{% endcode %}
+
+</details>
