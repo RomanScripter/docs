@@ -279,3 +279,59 @@ sound = {
 {% endcode %}
 
 </details>
+
+## :control\_knobs: Outros
+
+Em **others** você tem possibilidade de configurar algumas opções extras para que o resource se adeque da melhor forma possível em seu servidor, veja abaixo como utiliza-lo;
+
+{% code lineNumbers="true" %}
+```lua
+others = {
+    ['managerHud'] = function(element, state)
+        return setPlayerHudComponentVisible("all", state);
+    end,
+
+    ['getPlayerID'] = function(element)
+        return getElementData(element, "ID") or "N/A";
+    end,
+
+    ['notifyMedic'] = function(element)
+        return outputChatBox("\n[SAMU] #F8F8F8Um novo chamado realizado! foi marcado em seu GPS!", element, 255, 0, 0, true);
+    end,
+
+    ['attachedBlip'] = function(element, icon, visibleTo)
+        return createBlipAttachedTo(element, icon, 2, 255, 255, 255, 255, 0, 300, visibleTo);
+    end,
+
+    -- DINHEIRO
+
+    ['getMoney'] = function(element)
+        return getPlayerMoney(element);
+    end,
+
+    ['takeMoney'] = function(element, amount)
+        return takePlayerMoney(element, amount);
+    end,
+
+    ['giveMoney'] = function(element, amount)
+        return givePlayerMoney(element, amount);
+    end
+};
+
+--[[
+    managerHud: Função para habilitar e desabilitar a hud,
+    caso não queira utilizar, basta deixa-la como o exemplo abaixo:
+    
+    ['managerHud'] = function(element, state)
+        return;
+    end,
+    
+    getPlayerID: Pegar o ID do(a) jogador(a) desejado.
+    notifyMedic: Mensagem de notificação que irá aparecer para o médico.
+    attachedBlip: Blip que irá ficar na vítima que chamou o médico.
+    getMoney: Quantidade de dinheiro que o(a) jogador(a) possui.
+    takeMoney: Retirar uma quantia de dinheiro do(a) jogador(a).
+    giveMoney: Adicionar uma quantia de dinheiro do(a) jogador(a).
+]]--
+```
+{% endcode %}
