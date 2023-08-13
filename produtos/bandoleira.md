@@ -14,7 +14,7 @@ description: Sistema de bandoleira.
 
 <details>
 
-<summary>Manager</summary>
+<summary>Geral</summary>
 
 {% code lineNumbers="true" %}
 ```lua
@@ -83,6 +83,37 @@ Acima temos a configuração do sistema de bandoleira, veja logo abaixo para con
      
      min: Mínimo de munições para que a arma apareça no corpo do(a)
      jogador(a).
+]]--
+```
+{% endcode %}
+
+</details>
+
+<details>
+
+<summary>Vinculação</summary>
+
+Para vincular o seu sistema de inventário com o nosso sistema, basta utilizar as informações abaixo como base:\
+
+
+{% code lineNumbers="true" %}
+```lua
+--[[
+    Para utilizar, basta inserir a função abaixo nas funções do
+    seu inventário referente ao "useItem".
+
+    Função que deverá ser utilizado ao pegar / remover armas
+    utilizando o inventário.
+]]--
+
+exports['[RS]Bandoleira']:refreshBandoleira(element);
+
+--[[
+    [RS]Bandoleira: Nome da pasta do script.
+    element: Jogador(a) que utilizou ou removeu a arma.
+    
+    A função deverá ser utilizada cada vez que uma arma do inventário
+    for pega ou retirada da mão do jogador.
 ]]--
 ```
 {% endcode %}
