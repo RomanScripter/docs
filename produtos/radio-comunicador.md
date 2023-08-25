@@ -14,7 +14,7 @@ description: Sistema de rádio comunicador.
 
 <details>
 
-<summary>Attributes</summary>
+<summary>Atributos</summary>
 
 {% code lineNumbers="true" %}
 ```lua
@@ -40,7 +40,7 @@ description: Sistema de rádio comunicador.
         model = 1429 -- ID do modelo que o objeto do rádio comunicador irá ficar.
     },
 
-    frequences = { -- Configurações das frequências ([Frequencia] = {"Permissões"}).
+    frequencys = { -- Configurações das frequências ([Frequencia] = {"Permissões"}).
         [190] = {"Console", "Policial"},
         [192] = {"Console", "Samu"},
         [1] = {"Console", "Admin"},
@@ -75,6 +75,10 @@ open = "radio",
 health = 10,
 ```
 {% endcode %}
+
+### Webhook
+
+Logs do Discord para mostrar quem entrou ou saiu de alguma frequência no rádio comunicador.
 
 </details>
 
