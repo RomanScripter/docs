@@ -27,6 +27,7 @@ description: Sistema de rádio comunicador.
         end 
     },
 
+    talk = "capslock", -- Tecla que será utilizada para falar no rádio comunicador.
     open = "radio", -- Comando para abrir o rádio.
     health = 10, -- Vida mínima para utilizar o rádio comunicador.
 
@@ -58,6 +59,14 @@ Para configurar as verificações que o player tem que cumprir para poder utiliz
 {% code lineNumbers="true" %}
 ```lua
 --[[
+ Tecla que o(a) jogador(a) terá que apertar juntamente com
+ a tecla que o mesmo utiliza para falar no voice para conseguir
+ se comunicador no rádio.
+]]--
+
+talk = "capslock",
+
+--[[
  Caso o(a) jogador(a) utilize o comando abaixo, ela irá abrir o
  rádio comunicador, porém para que ela possa concluir essa
  abertura, o mesmo tem que ter mais que X de vida (que iremos
@@ -79,6 +88,78 @@ health = 10,
 ### Webhook
 
 Logs do Discord para mostrar quem entrou ou saiu de alguma frequência no rádio comunicador.
+
+{% code lineNumbers="true" %}
+```lua
+--[[
+ Se a opção abaixo for sim (true), você irá passar a 
+ utilizar as logs de entrada / saída das frequências, 
+ caso a opção abaixo for não (false) você estaria optando
+ por não utilizar as logs do Discord.
+]]--
+
+-- Para habilitar as logs:
+use = true,
+
+-- Para desabilitar os logs:
+use = false;
+
+--[[
+ Link da WebHook do Discord que você irá pegar 
+]]--
+
+link = ""
+```
+{% endcode %}
+
+### Objeto
+
+Objeto do rádio comunicador que será utilizado ao habilitar o seu rádio.
+
+{% code lineNumbers="true" %}
+```lua
+--[[
+ Se a opção abaixo for sim (true), você irá passar a 
+ utilizar o objeto ao ligar o seu rádio comunicador, 
+ caso a opção abaixo for não (false) você não irá
+ utilizar objeto algum ao ligar o rádio.
+]]--
+
+-- Para habilitar as logs:
+use = true,
+
+-- Para desabilitar os logs:
+use = false;
+
+--[[
+ ID do objeto que será utilizado. 
+]]--
+
+model = 1429
+```
+{% endcode %}
+
+### Frequências
+
+Configuração das frequências privadas, que no caso, serão utilizadas somente por pessoas que tenham as permissões pré-definidas.
+
+{% code lineNumbers="true" %}
+```lua
+--[[ 
+ [FREQUÊNCIA] = {"PERMISSÕES"},
+]]--
+
+[190] = {"Console", "Policial"},
+
+--[[
+ [190] = Frequência (há frequência escolhida terá que ser 
+ entre 0 até 999).
+ 
+ {"Console", "Policial"}, -- Permissões para entrar na 
+ frequência (ACLs).
+]]--
+```
+{% endcode %}
 
 </details>
 
