@@ -28,8 +28,8 @@ description: Sistema de rádio comunicador.
     },
 
     talk = "capslock", -- Tecla que será utilizada para falar no rádio comunicador.
-    open = "radio", -- Comando para abrir o rádio.
     health = 10, -- Vida mínima para utilizar o rádio comunicador.
+       command = "radio", -- Comando para abrir o rádio.
 
     webhook = { -- Logs de entrada / saída da rádio.
         use = true, -- Opção para utilizar ou não as logs no Discord.
@@ -73,7 +73,7 @@ talk = "capslock",
  definir logo após a quantidade necessária).
 ]]--
 
-open = "radio",
+command = "radio",
 
 --[[
  Abaixo você pode ver que a quantidade de vida mínima para abrir
