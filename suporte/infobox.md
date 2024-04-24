@@ -1,7 +1,7 @@
 # 🎲 Infobox
 
 {% hint style="warning" %}
-Depois de ler toda a página e ainda não estiver entendo, abra um **⚒️** [**Ticket**](ticket.md) para que nossa equipe auxilie você.
+Depois de ler toda a página e ainda não estiver entendo, abra um **⚒️** [**Ticket**](broken-reference) para que nossa equipe auxilie você.
 {% endhint %}
 
 ## :question: O que é infobox?

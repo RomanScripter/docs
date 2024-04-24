@@ -9,7 +9,7 @@
 > Para adicionar outro idioma é muito simples, irei dar o exemplo para adicionar algum outro idioma no Paintball, porém, caso queira adicionar outro idioma em algum outro sistema da **Roman Store**, basta seguir os mesmos passos.
 
 {% hint style="warning" %}
-Caso não entenda, abra um [Ticket](ticket.md) e tire suas dúvidas com nossa equipe de suporte.
+Caso não entenda, abra um [Ticket](broken-reference) e tire suas dúvidas com nossa equipe de suporte.
 {% endhint %}
 
 {% code lineNumbers="true" %}

@@ -8,22 +8,11 @@
   * [⚠️ Erros](suporte/protecao/erros.md)
 * [🌍 Idiomas](suporte/idiomas.md)
 * [🎲 Infobox](suporte/infobox.md)
-* [⚒️ Ticket](suporte/ticket.md)
-
-## 📦 Produtos
-
-* [🛒 Rádio Comunicador](produtos/radio-comunicador.md)
-* [🛒 Fábrica de Armas](produtos/fabrica-de-armas.md)
-* [🛒 Venda de Armas](produtos/venda-de-armas.md)
-* [🛒 Bandoleira](produtos/bandoleira.md)
-* [🛒 Paintball](produtos/paintball.md)
-* [🛒 Samu](produtos/samu.md)
 
 ## 🔩 Outros
 
 * [Instagram](https://instagram.com/romanscripter)
-* [Discord](https://discord.gg/SQUDj3DVU7)
-* [Sobre](https://discord.com/channels/834584895811878952/942918048145346560)
+* [Discord](https://discord.gg/romanstore)
 * [Site](https://romanscripter.com.br/)
 
 ## 📜 Jurídico
