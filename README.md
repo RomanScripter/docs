@@ -24,10 +24,8 @@ description: Seja bem vindo(a) a documentação oficial da Roman Store Inc.
 
 ## :link: Links rápidos
 
-> **Discord:** [**https://discord.gg/SQUDj3DVU7**](https://discord.gg/SQUDj3DVU7)
+> **Discord:** [**https://discord.gg/romanstore**](https://discord.gg/romanstore)
 >
 > **Site:** [**https://romanscripter.com.br/**](https://romanscripter.com.br/)
->
-> **Suporte Técnico:** [**Discord Ticket**](suporte/ticket.md)
 >
 > **Instagram:** [**@romanscripter**](https://www.instagram.com/romanscripter/)
